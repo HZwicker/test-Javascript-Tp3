@@ -1,0 +1,49 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <link rel="stylesheet" href="app/app.css" />
+    <meta charset="utf-8">
+    </head>
+
+    <body>
+    <div id="q1">
+    	<h1> Questão 1 </h1>
+    </div>
+    <div id="q2">
+      <h1> Questão 2</h1>
+    </div>
+    <div id="q3">
+      <h1> Questão 3 </h1>
+    </div>
+    <div id="q4">
+      <h1> Questão 4 </h1>
+    </div>
+    <div id="q5">
+      <h1> Questão 5</h1>
+    </div>
+    <div id="q6">
+      <h1> Questão 6 </h1>
+    </div>
+
+    <script>
+    var app = { };
+    app.getComponente = function (nome){
+      if( !app[nome]) {
+        app[nome] = { $ctrl:{} };
+      }
+      return app[nome];
+    };
+    
+    </script>
+
+
+
+
+  <script src="js/q1.js"></script>
+  <script src="js/q2.js"></script>
+  <script src="js/q3.js"></script>
+  <script src="js/q4.js"></script>
+  <script src="js/q5.js"></script>
+  <script src="js/q6.js"></script>
+</body>
+</html>
